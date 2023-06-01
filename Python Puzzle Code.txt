@@ -1,0 +1,13 @@
+#This creates the variable for the 12in pizza input.
+var = input("Number of 12in pizzas: ")
+(float(var) * 452.3893421169)
+
+#This creates the variable for the 18in pizza input.
+var2 = input("Number of 18in pizzas: ")
+(float(var) * 1017.8760197631)    
+    
+#This prints the programs response.
+if (var > (var2)):
+    print("The 12in pizza is better.");
+else:
+    print("The 18in pizza is better.");
